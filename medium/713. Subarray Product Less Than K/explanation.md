@@ -30,3 +30,5 @@ This problem can be solved using sliding window since it tries to find number of
 > `k = 1`
 
 In this example, no matter how much `l` increases, the `curr` will always be 1, and thus keep activating the while loop of increasing `l`. Hence, it is crucial to put `k=1` into the special case at the beginning of the solution.
+
+The time complexity of this problem is `O(n)`, while and space complexity is `O(1)`.
