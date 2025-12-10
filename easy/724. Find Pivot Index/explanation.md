@@ -59,4 +59,4 @@ This approach ensures that each sum comparison is done in constant time, and no 
 
 - **Time Complexity:** O(n) - Building the prefix sum array takes one pass through the list, and checking each index takes another pass. Both steps together still run in linear time.
 
-- **Space Complexity:** O(n) - We store a prefix sum array of the same length as the input, requiring additional space proportional to n.
+- **Space Complexity:** O(n) - gWe store a prefix sum array of the same length as the input, requiring additional space proportional to n.
