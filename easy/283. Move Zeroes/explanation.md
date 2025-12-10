@@ -41,5 +41,5 @@ By the time j has scanned the entire array, all non-zero elements have been comp
 
 This technique keeps the order of non-zero elements intact, because each non-zero value is written to the next available slot in the sequence in the same order as they originally appeared. Since each pointer only moves forward, and each element is processed at most once, the method is efficient and clean.
 
-- **Time cpmplexity:** O(n)
-- - **Space cpmplexity:** O(1)
+- **Time complexity:** O(n) - The algorithm scans through the array once with pointer `j`, and each non-zero is written exactly once by pointer `i`. No element is revisited or moved more than necessary, so the total amount of work grows linearly with the length of the array.
+- **Space complexity:** O(1) - Only two integer pointers are used, and all modifications happen directly inside the original array. No extra arrays or data structures are created, so the additional memory used remains constant regardless of input size.

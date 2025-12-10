@@ -45,5 +45,5 @@ This ensures each new element represents the cumulative sum up to that position.
 Once all positions have been processed, the completed prefix list is returned.
 
 Time and Space Complexity
-- Time complexity: O(n) — each element is processed once.
-- Space complexity: O(n) — the output list stores one running sum per input element.
+- **Time complexity:** O(n) — each element is processed once.
+- **Space complexity:** O(n) — the output list stores one running sum per input element.

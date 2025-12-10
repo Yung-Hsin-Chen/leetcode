@@ -47,5 +47,5 @@ but should also satisfy
 
 The algorithm therefore scans the array once, keeping a running sum and tracking the smallest value that this running sum reaches. According to the inequality above, we output `1 - min_prefix_sum` as the final answer for startValue. However, if the `startValue <= 1`, the startValue should be `1` instead. Combining the normal cases, and the case that `startValue <= 1`, the final answer should be is `max(1 - min_prefix_sum, 1)`.
 
-- **Time Complexity:** O(n)
-- **Space Complexity:** O(1)
+- **Time Complexity:** O(n) because the algorithm scans the array once while maintaining a running sum and tracking the minimum prefix sum, so the total work grows linearly with the number of elements.
+- **Space Complexity:** O(1) because only a few variables are used to store the running sum and minimum prefix sum, so the memory required does not increase with the input size.

@@ -35,5 +35,11 @@ After updating the current altitude, you compare it with the maximum altitude re
 
 Once every gain has been processed, the maximum altitude stored in your variable represents the highest point ever reached. You simply return that value.
 
-- **Time complexity:** O(n)
-- **Space complexity:** O(1)
+- **Time complexity:** O(n) because the algorithm walks through the gain array exactly once.
+For each element:
+    1. you add the gain to the current altitude,
+    2. you check whether this altitude is the new maximum.
+- **Space complexity:** O(1) because the algorithm uses only a couple of variables:
+    1. one for the current altitude,
+    2. one for the highest altitude seen so far.\
+    No additional arrays, lists, or data structures are created.
