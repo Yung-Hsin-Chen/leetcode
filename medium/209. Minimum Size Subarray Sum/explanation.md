@@ -35,5 +35,14 @@ The process then becomes rhythmic: expand to the right until the sum is large en
 
 This works efficiently because each pointer only moves forward. The right pointer walks through the array once, and the left pointer also walks forward at most once. Even though there is a loop inside a loop, the total movement across the array is linear rather than quadratic.
 
+**Attention:**\
+ In many sliding-window problems we do shrink the window when it becomes invalid.
+Here, the twist is that validity flips direction, because we want the minimum window length, not the maximum.
+
+- If you’re asked for the longest window with a constraint, shrink when invalid.
+- If you’re asked for the shortest window with a constraint, shrink when valid.
+
+This principle explains almost every sliding window pattern.
+
 - **Time complexity:** O(n)
 - **Space complexity:** O(1)
