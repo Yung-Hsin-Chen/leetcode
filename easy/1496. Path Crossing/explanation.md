@@ -6,7 +6,7 @@ Return `true` if the path crosses itself at any point, that is, if at any time y
 
 Example 1:
 
-<img src="../../images/1496-1.png" alt="Example_1" width="60%">
+<img src="../../images/1496-1.png" alt="Example_1" width="30%">
 
 > **Input:** path = "NES"\
 > **Output:** false \
@@ -14,7 +14,7 @@ Example 1:
 
 Example 2:
 
-<img src="../../images/1496-2.png" alt="Example_1" width="60%">
+<img src="../../images/1496-2.png" alt="Example_1" width="30%">
 
 > **Input:** path = "NESWW"\
 > **Output:** true\
