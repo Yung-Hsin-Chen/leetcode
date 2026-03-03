@@ -64,5 +64,5 @@ Using the prefix sums, the code iterates through all indices and overwrites `num
 
 Every valid window sum is divided by `(2k + 1)` using integer division, as required.
 
-- **Time Complexity:** O(n) , because both the prefix construction and the averaging loop scan the array once.
-- **Space Complexity:** O(n), due to storing the prefix-sum array.
+- **Time Complexity:** O(n) because both the prefix construction and the averaging loop scan the array once.
+- **Space Complexity:** O(n) due to storing the prefix-sum array.
